@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation_bar{
+
+    height: 150px;
+    width: auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 10px;
+
+   }
+   .first_logo img{
+    height: 30px;
+    width: 30px;
+    margin: 10px 0px;
+    margin-left: 50px;
+   }
+.logo{
+    font-size: 24px;
+    font-weight:800;
+    margin: 9px 0px;
+    /* margin-left: 100px; */
+    /* margin-right: 40px; */
+    
+}
+.item1 ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   /* margin-left: 100px; */
+   margin-right: 300px;
+  
+}
+.item1 li{
+    padding: 10px 10px; 
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+}
+.search_bar >input{
+    height: 30px;
+    width: 600px;
+     /* margin-right: 100px;   */
+   
+}
+.search_bar > button{
+    height: 40px;
+    width: 110px;
+    border-radius: 15px;
+    font-size: 20px;
+    /* margin-right: 20px; */
+   /* margin-right: 10px; */
+   background-color: purple;
+   color: white;
+   text-decoration: underline;
+ 
+}
+.item2 ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.item2 li{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+}
+.second_logo img{
+    height: 40px;
+    width: 35px;
+    margin-right: 20px;
+}
+.container{
+
+      height: 430px;
+      width: auto;
+    /* background-color: aquamarine; */
+      display: flex;
+      justify-content: space-between;
+}
+.container1{
+    height: auto;
+    width: 450px;
+    /* background-color: blue;  */
+     padding: 40px 10px;  
+    
+
+}
+.container1 h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 40px;
+}
+.container1 p{
+font-size: 18px;
+/* padding: 10px 40px; */
+text-align: start;
+margin-bottom: 10px;
+  margin-left: 50px;  
+}
+.btn button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+font-size: 18px;
+margin-left: 50px;
+text-decoration:underline;
+padding: 10px 0px;
+background-color: purple;
+color: white;
+
+
+}
+.container2{
+    height: auto;
+    width: 600px;
+    /* background-color: blueviolet; */
+
+}
+.container2 img{
+    height: 400px;
+    width: 400px;
+}
+.last_section{
+    /* margin-left: 70px; */
+     /* margin: 30px 0px;  */
+   
+    
+}
+.last_section h4{
+    display: inline-block;
+    justify-content: space-between;
+    text-align: justify;
+    text-decoration: none;
+    margin-left: 30px; 
+    /* padding: 0px 10px; */
+    /* padding: 0px 5px; */
+}
+.back1{
+    background-image: url('./img/469457-abstract-art-colorful-colors-design-illustration-light-theme.jpg');
+    height: auto;
+    width: auto;
+}
